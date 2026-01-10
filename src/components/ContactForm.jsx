@@ -50,6 +50,12 @@ const ContactForm = () => {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
+       <h2 className=" sm:text-xl font-extrabold text-gray-800 text-center">
+  START ENQUIRY
+</h2>
+
+
+
       {submitStatus === 'success' && (
         <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4">
           Thank you! Your message has been sent. We'll contact you shortly.

@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import logo from '../../public/logos/NAGPUR_HEIGHTS_LOGO.png';
 
+
 const HomeIcon = (props) => (
   <svg {...props} fill="none" stroke="currentColor" viewBox="0 0 24 24">
     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7m-9 0v6m4 0h6m-6 0a2 2 0 002 2h6a2 2 0 002-2v-6a2 2 0 00-2-2h-6a2 2 0 00-2 2v6z" />
@@ -87,6 +88,7 @@ const Header = () => {
                 <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
               </Link>
             ))}
+            
             <button
               onClick={toggleFullscreen}
               className="flex items-center justify-center"
@@ -98,6 +100,7 @@ const Header = () => {
               </svg> */}
               <img src="/logos/fullScreen.svg" alt="hhh" className='w- h-5'/>
             </button>
+            
           </nav>
 
 
@@ -126,12 +129,26 @@ const Header = () => {
               { href: '/blogs', label: 'Blogs', icon: BlogIcon },
               { href: '/about', label: 'About', icon: InfoIcon },
               { href: '/contact', label: 'Contact', icon: PhoneIcon }
-            ].map(({ href, label, icon: Icon }) => (
-              <Link href={href} key={href} className="flex flex-col items-center text-xs text-gray-600 hover:text-blue-600">
-                <Icon className={`h-5 w-5 mb-0.5 ${isActive(href) ? 'text-blue-600' : ''}`} />
-                <span className={isActive(href) ? 'text-blue-600 font-medium' : ''}>{label}</span>
-              </Link>
-            ))}
+            ].map(({ href, label, icon: Icon }) => {
+              const isContact = href === '/contact';
+              const commonClasses = "flex flex-col items-center text-xs text-gray-600 hover:text-blue-600";
+              if (isContact) {
+                // Replace the phone number below with the real number when available
+                const PHONE_NUMBER = '+919953216767';
+                return (
+                  <a href={`tel:${PHONE_NUMBER}`} key={href} className={commonClasses} aria-label={`Call ${label}`}>
+                    <Icon className={`h-5 w-5 mb-0.5 ${isActive(href) ? 'text-blue-600' : ''}`} />
+                    <span className={isActive(href) ? 'text-blue-600 font-medium' : ''}>{label}</span>
+                  </a>
+                );
+              }
+              return (
+                <Link href={href} key={href} className={commonClasses}>
+                  <Icon className={`h-5 w-5 mb-0.5 ${isActive(href) ? 'text-blue-600' : ''}`} />
+                  <span className={isActive(href) ? 'text-blue-600 font-medium' : ''}>{label}</span>
+                </Link>
+              );
+            })}
           </div>
         </nav>
 

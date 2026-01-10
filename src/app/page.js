@@ -35,9 +35,9 @@ const Home = () => {
       <div className="relative bg-white">
         <HeroCarousel />
 
-        <div className="relative z-10 lg:-mt-20 lg:pb-6 mx-4 sm:mx-10 lg:mx-40">
-          <ContactForm />
-        </div>
+
+
+
       </div>
       <LogoSlider />
 
@@ -109,6 +109,11 @@ const Home = () => {
         </div>
       </div >
       <FAQ />
+      <div className="block md:hidden container mx-auto px-10 py-6 bg-white shadow-md rounded-lg my-6">
+        
+        <p className="text-sm text-gray-600 mb-4 text-center">Questions? Call or message us, or use the form below.</p>
+        <ContactForm />
+      </div>
       <Footer />
     </div>
   );

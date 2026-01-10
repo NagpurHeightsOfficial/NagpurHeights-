@@ -62,7 +62,7 @@ const Contact = () => {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
               {/* Contact Form */}
               <div className="lg:col-span-2 bg-white rounded-xl shadow-md p-8">
-                <h2 className="text-2xl font-bold text-gray-800 mb-6">Send Us a Message</h2>
+                
                 <ContactForm />
               </div>
 
