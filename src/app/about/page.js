@@ -122,7 +122,7 @@ const About = () => {
       name: "Harsh Tandulwar",
       role: "Visual Editor",
       bio: "Creative visual editor crafting engaging images and videos that enhance property listings and brand storytelling.",
-      image: "/images/teamimages/harsh.jpeg"
+      image: "/images/teamimages/Harsh.jpeg"
     },
     {
       name: "Pawan Kadam",
