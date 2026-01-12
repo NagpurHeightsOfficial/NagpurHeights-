@@ -22,7 +22,7 @@ const Contact = () => {
       name: 'Main Office',
       address: '1st floor, Kosher Residency, 2, Shilpa Society, Manish Nagar, Somalwada, Nagpur, Maharashtra 440037',
       phone: '+91 9953216767',
-      phone2: '+91 9823056177',
+      phone2:'+91 9096076177',
       email: 'nagpurheightsofficial@gmail.com',
       hours: 'Mon-Sat: 10:00 AM - 7:00 PM'
     },

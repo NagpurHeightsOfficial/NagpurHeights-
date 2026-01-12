@@ -37,8 +37,8 @@ const Footer = () => {
               Shilpa Society,<br />
               Manish Nagar, Somalwada,<br /> Nagpur - 440037<br />
               <br />
-              Phone: +91 9096076177,
-                     +91 9823056177<br />
+              Phone: +91 9953216767 |,
+                     +91 9096076177<br />
               Email: nagpurheightsofficial@gmail.com<br/>
               Instagram :<Link href='https://www.instagram.com/nagpurheights/' target='_blank'> nagpurheights</Link>
                         <Link href='https://www.instagram.com/nagpur_propertiess/' target='_blank'>  |  nagpur_propertiess</Link>
