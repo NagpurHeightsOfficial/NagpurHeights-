@@ -28,8 +28,6 @@ const slides = [
       'RESIDENTIAL',
       'PENTHOUSES',
       'LUXURY',
-      
-     
     ],
   },
     {

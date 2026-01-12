@@ -5,6 +5,55 @@ import Image from 'next/image';
 import WhatsApp from '@/components/WhatsApp';
 import FAQ from '@/components/FAQ';
 
+export const metadata = {
+  title: "About Nagpur Heights | Trusted Real Estate Developers & Agents in Nagpur",
+  description:"Nagpur Heights is a trusted Nagpur real estate platform offering verified listings, expert property dealers, and professional guidance across Nagpur’s best residential localities.",
+  keywords: [
+    "Nagpur real estate",
+    "property for sale in Nagpur",
+    "buy plots in Nagpur",
+    "sell plots in Nagpur",
+    "buy flat in Nagpur",
+    "sell flat in Nagpur",
+    "2BHK properties in Nagpur",
+    "3BHK flats in Nagpur",
+    "affordable flats in Nagpur",
+    "luxury flats in Nagpur",
+    "ready to move flats Nagpur",
+    "under construction flats Nagpur",
+    "new residential projects in Nagpur",
+    "Nagpur real estate investment",
+    "Nagpur property market",
+    "real estate developers in Nagpur",
+    "best localities to buy property in Nagpur",
+    "plots for sale in Hingna Nagpur",
+    "residential plots in Nagpur",
+    "flats near Wardha Road Nagpur",
+    "flats in MIHAN Nagpur",
+    "flats near Nagpur Airport",
+    "flats for rent in Nagpur",
+    "property dealers in Nagpur", 
+    "real estate agents in Nagpur",
+    "Nagpur Heights",
+    "Nagpur township projects",
+    "investment property in Nagpur",
+    "Nagpur metro corridor properties",
+    "budget homes in Nagpur",
+    "premium projects in Nagpur",
+    "property near Samruddhi Expressway"
+  ],
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    title: ` Real Estate Services, Nagpur `,
+    description: `Buy, Sell, or Rent Real Estate Browse details, prices, and photos.`,
+    siteName: 'Buy, Sell, or Rent Real Estate in Nagpur | Nagpur Heights',
+    type: 'website',
+  },
+};
+
 
 const About = () => {
 
@@ -13,19 +62,19 @@ const About = () => {
       name: "Sarang Thakre",
       role: "Founder & CEO",
       bio: "2+ years in Nagpur real estate, transformed 5+ properties",
-      image: "/images/founder1.jpeg"
+      image: "/images/teamimages/Sarang Thakre.jpeg"
     },
     {
       name: "Rameshwar Thakur",
       role: "CO-Founder and CMO",
-      bio: "Strategic marketing professional driving brand growth, customer engagement, and digital outreach across Nagpur’s real estate market.",
-      image: "null"
+      bio: "Strategic sales and marketing professional with 15 years of experience driving brand growth, customer acquisition, and digital marketing in real estate market.",
+      image: "/images/teamimages/Rameshwar Thakur.jpeg"
     },    
     {
       name: "Mayur FulBandhe",
       role: "Head of Operations",
       bio: "Operations specialist ensuring smooth execution, compliance, and efficient project delivery across all real estate initiatives.",
-      image: "null"
+      image: "images/teamimages/Mayur.jpeg"
     },
     {
       name: "Vedansh Mamilwar",
@@ -37,14 +86,26 @@ const About = () => {
       name: "Aditi Shukla",
       role: "Head of Sales",
       bio: "Top performer 5 years running, specializes in luxury properties",
-      image: "/images/founder2.jpeg"
+      image: "/images/teamimages/Aditi Shukla.jpeg"
     },
     {
       name: "Shailesh Panghate",
       role: "Head of IT Opeartions",
       bio: "Technology lead managing digital infrastructure, website performance, and IT systems to support seamless business operations.",
       image: "null"
-    },    
+    },  
+       {
+      name: "Shobhit Bawangarh",
+      role: "Web Developer",
+      bio: "Web developer responsible for building, maintaining, and optimizing the company’s digital platforms and user experience.",
+      image: "/images/teamimages/Shobhit bawangarh.jpeg"
+    }, 
+        {
+      name: "Bhavesh Chawre",
+      role: "Web Developer/Designer",
+      bio: "Web Developer & Designer skilled in creating responsive, user-friendly websites and web applications with modern UI/UX, clean code, and scalable solutions.",
+      image: "images/teamimages/Bhavesh.jpeg"
+    }, 
     {
       name: "Sudarshan Mahule",
       role: "Sales Executive",
@@ -52,40 +113,28 @@ const About = () => {
       image: "null"
     },
     {
-      name: "Bhavesh Chawre",
-      role: "Sales Executive",
-      bio: "Client-focused sales professional skilled in property consultations, negotiations, and closing residential deals.",
-      image: "null"
-    },
-    {
       name: "Vrundita Jamkar",
       role: "CRM",
       bio: "Customer relationship specialist managing client communication, follow-ups, and long-term customer satisfaction.",
-      image: "null"
-    },
-    {
-      name: "Shobit Bawaghar",
-      role: "Web Developer",
-      bio: "Web developer responsible for building, maintaining, and optimizing the company’s digital platforms and user experience.",
-      image: "null"
+      image: "/images/teamimages/vj.jpeg"
     },
     {
       name: "Harsh Tandulwar",
       role: "Visual Editor",
       bio: "Creative visual editor crafting engaging images and videos that enhance property listings and brand storytelling.",
-      image: "null"
+      image: "/images/teamimages/harsh.jpeg"
     },
     {
       name: "Pawan Kadam",
       role: "Visual Media Specialist",
       bio: "Visual media expert specializing in photography and video content to showcase properties with maximum impact.",
-      image: "null"
+      image: "/images/teamimages/Pawan.jpeg"
     },
     {
       name: "Aditya Jadhav",
       role: "Visual Editor",
       bio: "Detail-oriented visual editor focused on high-quality visuals that elevate marketing campaigns and digital presence.",
-      image: "null"
+      image: "/images/teamimages/Aditiya.jpeg"
     },
 
   ];
@@ -185,7 +234,7 @@ const About = () => {
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="w-28 h-28 mx-auto rounded-full object-cover mb-4 border-4 border-indigo-100"
+                    className="w-38 h-38 mx-auto rounded-full object-cover mb-4 border-4 border-indigo-100"
                   />
                   <h3 className="text-xl font-semibold text-gray-900">{member.name}</h3>
                   <p className="text-sm text-indigo-600 font-medium mb-2">{member.role}</p>

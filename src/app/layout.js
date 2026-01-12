@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Properties in Nagpur | Nagpur Heights | 2BHK, 3BHK Flats",
-  description: "Buy or sell flats, plots & commercial property in Nagpur. Explore verified listings in MIHAN, Wardha Road & more. Trusted builders, RERA projects & latest property trends. Start today!",
+  title: "Nagpur Real Estate | Buy & Sell Flats, Plots & Properties in Nagpur – Nagpur Heights",
+  description: "Explore Nagpur real estate with Nagpur Heights. Buy flats, buy plots, invest in residential projects, budget homes, luxury flats, and properties near MIHAN, Wardha Road & Samruddhi Expressway.",
   keywords: [
     "Nagpur real estate",
     "property for sale in Nagpur",
@@ -42,7 +42,7 @@ export const metadata = {
     "flats in MIHAN Nagpur",
     "flats near Nagpur Airport",
     "flats for rent in Nagpur",
-    "property dealers in Nagpur",
+    "property dealers in Nagpur", 
     "real estate agents in Nagpur",
     "Nagpur Heights",
     "Nagpur township projects",

@@ -13,12 +13,19 @@ import BlogCard from '@/components/BlogCard';
 import SearchFilters from '@/components/SearchFilters';
 import FAQ from '@/components/FAQ';
 
+export const metadata ={
+    title: "Properties in Nagpur | Flats, Plots & Investment Property",
+    description: "Browse properties in Nagpur including affordable flats, luxury projects, residential plots, metro corridor properties, premium townships and high-return investment opportunities.",
+  }
+
 const Property = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [location, setLocation] = useState('Select Location');
   const [propertyType, setPropertyType] = useState('All Types');
   const [budget, setBudget] = useState('Any Budget');
   const [filteredProperties, setFilteredProperties] = useState(Properties);
+
+
 
   const handleSearch = () => {
     let results = Properties;

@@ -8,6 +8,13 @@ import WhatsApp from '@/components/WhatsApp';
 import Script from "next/script";
 import FAQ from '@/components/FAQ';
 
+export const metadata = {
+  title: "Contact Nagpur Heights | Real Estate Agents & Property Dealers in Nagpur",
+  description:
+    "Contact Nagpur Heights for buying, selling properties in Nagpur.  MIHAN, Wardha Road, Hingna, Nagpur Airport, samruddhi circle nagpur and nearby prime locations.",
+};
+
+
 const Contact = () => {
 
   const offices = [

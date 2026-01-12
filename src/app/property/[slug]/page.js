@@ -27,9 +27,11 @@ export async function generateMetadata({ params }) {
     title: property
       ? `${property.title} – ${property.location} | 2BHK & 3BHK Flats in Nagpur`
       : 'Real Estate in Nagpur | Nagpur Heights',
+
     description: property
-      ? `Explore ${property.title} at ${property.location}, offering 2BHK & 3BHK flats with top-class amenities. Starting from ₹69 Lacs. Book now via Nagpur Heights.`
-      : 'Buy, Sell & Rent properties in Nagpur with Nagpur Heights.',
+      ? `Explore ${property.title} at ${property.location}. Buy 2BHK & 3BHK flats in Nagpur with modern amenities. Ideal for investment and end-use. Enquire now with Nagpur Heights.`
+      : 'Buy, sell and invest in flats, plots and residential properties across Nagpur with Nagpur Heights.',
+
     keywords: [
       property.title,
       property.location,
