@@ -222,7 +222,7 @@ const About = () => {
         <section className="py-20 bg-gradient-to-b from-white to-gray-50">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-extrabold text-center text-gray-800 mb-14">
-              Meet Our <span className="text-indigo-600">Team</span>
+              Meet Our <span className="text-blue-600">Team</span>
             </h2>
 
             <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3  max-w-6xl mx-auto">

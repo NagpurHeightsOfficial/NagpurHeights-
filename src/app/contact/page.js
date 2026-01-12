@@ -10,8 +10,7 @@ import FAQ from '@/components/FAQ';
 
 export const metadata = {
   title: "Contact Nagpur Heights | Real Estate Agents & Property Dealers in Nagpur",
-  description:
-    "Contact Nagpur Heights for buying, selling properties in Nagpur.  MIHAN, Wardha Road, Hingna, Nagpur Airport, samruddhi circle nagpur and nearby prime locations.",
+  description:"Contact Nagpur Heights for buying, selling properties in Nagpur.  MIHAN, Wardha Road, Hingna, Nagpur Airport, samruddhi circle nagpur and nearby prime locations.",
 };
 
 
@@ -23,6 +22,7 @@ const Contact = () => {
       name: 'Main Office',
       address: '1st floor, Kosher Residency, 2, Shilpa Society, Manish Nagar, Somalwada, Nagpur, Maharashtra 440037',
       phone: '+91 9953216767',
+      phone2: '+91 9823056177',
       email: 'nagpurheightsofficial@gmail.com',
       hours: 'Mon-Sat: 10:00 AM - 7:00 PM'
     },
@@ -90,6 +90,10 @@ const Contact = () => {
                           <FaPhone className="text-blue-500 mr-3" />
                           <a href={`tel:${office.phone}`} className="text-gray-600 hover:text-blue-600">
                             {office.phone}
+                          </a>
+                        <FaPhone className="text-blue-500 mr-3 ml-4" />
+                         <a href={`tel:${office.phone2}`} className="text-gray-600 hover:text-blue-600">
+                            {office.phone2}
                           </a>
                         </div>
                         <div className="flex items-center">

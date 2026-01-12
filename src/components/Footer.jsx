@@ -33,13 +33,15 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <address className="text-gray-400 not-italic">
-              Nagpur Heights<br />
-              Hingna naka,<br /> 
-               Near Bellari Restaurant,<br /> Nagpur - 440016<br />
+              Kosher Residency,<br />
+              Shilpa Society,<br />
+              Manish Nagar, Somalwada,<br /> Nagpur - 440037<br />
               <br />
-              Phone: +91 9096076177<br />
+              Phone: +91 9096076177,
+                     +91 9823056177<br />
               Email: nagpurheightsofficial@gmail.com<br/>
               Instagram :<Link href='https://www.instagram.com/nagpurheights/' target='_blank'> nagpurheights</Link>
+                        <Link href='https://www.instagram.com/nagpur_propertiess/' target='_blank'>  |  nagpur_propertiess</Link>
             </address>
           </div>
         </div>
