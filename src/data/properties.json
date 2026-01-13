@@ -187,12 +187,11 @@
       "price": "₹ ",
       "type": "Commercial Space",
       "images": [
-        "/images/WorldTradeCenter1.jpg",
-        "/images/WorldTradeCenter2.jpeg",
-        "/images/WorldTradeCenter3.jpeg",
-        "/images/WTC1.png",
-        "/images/WTC2.png",
-        "/images/WTC3.png"
+        "/images/7.1.jpg",
+        "/images/7.2.jpg",
+        "/images/7.3.jpg",
+        "/images/7.4.jpg",
+        "/images/7.5.jpg"
       ],
       "Phases": [
         1,
@@ -274,7 +273,7 @@
       "price": "₹ 1800-2000 /sq.ft",
       "type": "Plots",
       "images": [
-        "/images/Infinia1.webp",
+        "/images/10.1.jpg",
         "/images/Infinia2.PNG",
         "/images/Infinia3.PNG",
         "/images/Infinia4.PNG",
@@ -613,12 +612,12 @@
       "price": "₹ 55L",
       "type": "Plots",
       "images": [
-        "/images/phoenix1.png",
-        "/images/phoenix2.png",
-        "/images/phoenix3.png",
-        "/images/phoenix4.png",
-        "/images/phoenix5.png",
-        "/images/phoenix6.png",
+        "/images/phoenix1.webp",
+        "/images/phoenix2.webp",
+        "/images/phoenix3.webp",
+        "/images/phoenix4.webp",
+        "/images/phoenix5.webp",
+        "/images/phoenix6.webp",
         "/images/phoenix7.png",
         "/images/phoenix8.png"
       ],
@@ -706,9 +705,9 @@
       "price": "₹56L - 79.55L ",
       "type": "Flats",
       "images": [
-        "/images/oe-1.png",
+        "/images/oe-1.jpg",
         "/images/oe-2.png",
-        "/images/oe-3.png",
+        "/images/oe-3.jpg",
         "/images/oe-4.png",
         "/images/oe-5.png",
         "/images/oe-6.png"

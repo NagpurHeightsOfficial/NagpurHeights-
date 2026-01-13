@@ -6,7 +6,7 @@ import ContactForm from './ContactForm';
 /* SLIDES WITH CORRESPONDING SLIDER DATA */
 const slides = [
   {
-    image: '/images/extras/1.png',
+    image: '/images/extras/1.webp',
     labels: [
       '2BHK',
       '3BHK',
@@ -19,7 +19,7 @@ const slides = [
     ],
   },
   {
-    image: '/images/extras/2.png',
+    image: '/images/extras/2.webp',
     labels: [
       '3BHK',
       '4BHK',
@@ -31,7 +31,7 @@ const slides = [
     ],
   },
     {
-    image: '/images/extras/3.png',
+    image: '/images/extras/3.webp',
     labels: [
       'ULTRA LUXURY',
       'COMMERCIAL UNITS',
@@ -40,7 +40,7 @@ const slides = [
     ],
   },
     {
-    image: '/images/extras/4.png',
+    image: '/images/extras/4.webp',
     labels: [
       'RESIDENTIAL FLATS',
       'COMMERCIAL SPACES',
@@ -52,7 +52,7 @@ const slides = [
     ],
   },
     {
-    image: '/images/extras/5.png',
+    image: '/images/extras/5.webp',
     labels: [
       'LUXARY REAL ESTATE',
       'PRICE ₹53-82L',
