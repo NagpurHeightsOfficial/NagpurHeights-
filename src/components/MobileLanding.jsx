@@ -81,17 +81,6 @@ export default function MobileProjectLanding() {
                 cursor={false}
               />
             </p>
-
-            <div className="inline-flex items-center gap-2 text-2xl font-bold whitespace-nowrap mt-12">
-              <RotatingText
-                texts={["PLOTS", "FLATS", "VILLAS", "COMMERCIALS"]}
-                typingSpeed={60}
-                deletingSpeed={40}
-                pause={1500}
-                loop
-                className="text-white text-lg px-3 bg-blue-600 rounded-lg"
-              />
-            </div>
           </div>
 
           {/* FORM */}

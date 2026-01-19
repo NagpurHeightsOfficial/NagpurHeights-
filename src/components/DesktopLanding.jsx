@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import Header from "@/components/HeaderMuali";
 import Footer from "@/components/Footer";
 import TextType from "@/components/SplitText";
-import RotatingText from "./RotatingText";
 import { submitEnquiry } from "@/lib/submitEnquiry";
 
 export default function LeadCapturePage() {
@@ -19,12 +18,8 @@ export default function LeadCapturePage() {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
 
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
+  const handleChange = (e) =>
+    setFormData({ ...formData, [e.target.name]: e.target.value });
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -34,16 +29,10 @@ export default function LeadCapturePage() {
 
     try {
       await submitEnquiry(formData);
-
       setSuccess(true);
-      setFormData({
-        name: "",
-        phone: "",
-        email: "",
-        enquiryType: "",
-      });
+      setFormData({ name: "", phone: "", email: "", enquiryType: "" });
     } catch (err) {
-      setError(err.message || "Something went wrong. Please try again.");
+      setError(err.message || "Something went wrong.");
     } finally {
       setLoading(false);
     }
@@ -54,7 +43,7 @@ export default function LeadCapturePage() {
       <Header />
 
       <section
-        className="relative min-h-screen bg-cover bg-top sm:mt-10 overflow-hidden"
+        className="relative min-h-screen bg-cover bg-top overflow-hidden"
         style={{
           backgroundImage:
             "url('/images/extras/ChatGPT Image Jan 17, 2026, 04_44_02 PM.png')",
@@ -65,10 +54,11 @@ export default function LeadCapturePage() {
 
         {/* MAIN CONTENT */}
         <div className="relative z-10 max-w-[1200px] mx-auto px-4 sm:px-6 min-h-screen flex items-center">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 w-full">
+          <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-10 w-full">
+
             {/* LEFT CONTENT */}
-            <div className="text-white space-y-6">
-              <p className="text-lg sm:text-4xl lg:text-7xl font-semibold">
+            <div className="text-white space-y-6 md:space-y-5 md:ml-4 md-text-[300px]">
+              <p className="text-lg md:text-3xl lg:text-7xl font-semibold">
                 <TextType
                   text="Trusted real estate guidance for buyers, sellers, and investors in Nagpur."
                   typingSpeed={100}
@@ -77,40 +67,47 @@ export default function LeadCapturePage() {
                 />
               </p>
 
-              <div className="inline-flex items-center gap-2 text-2xl font-bold whitespace-nowrap">
-                <RotatingText
-                  texts={["PLOTS", "FLATS", "VILLAS", "COMMERCIALS"]}
-                  typingSpeed={60}
-                  deletingSpeed={40}
-                  pause={1500}
-                  loop
-                  className="text-white text-lg px-3 bg-blue-600 rounded-lg"
-                />
-              </div>
-
-              <p className="text-gray-200 max-w-xl">
+              <p className="text-gray-200 max-w-xl md:max-w-md">
                 Share your requirements and our experts will help you find the
                 perfect property with complete transparency and guidance.
               </p>
             </div>
 
-            <div className="hidden lg:block" />
+            <div className="hidden lg:block md:block" />
           </div>
         </div>
 
         {/* RIGHT FIXED FORM PANEL */}
-        <div className="absolute top-0 right-0 h-screen w-full max-w-xl bg-black/10 z-20 hidden lg:flex items-center">
-          <div className="relative w-[520px] -translate-x-1/2">
-            <div className="bg-white/20 backdrop-blur-sm rounded-xl shadow-2xl p-10 text-center">
-              <h3 className="text-5xl font-bold text-white">
+        <div
+          className="
+            absolute
+            top-0
+            right-[-200px]
+            md:right-[-120px]
+            h-screen
+            w-full
+            max-w-xl
+            bg-black/10
+            z-20
+            hidden
+            md:flex
+            lg:flex
+            items-center
+          "
+        >
+          <div className="relative w-[500px] md:w-[420px] -translate-x-1/2 md:right-[-150px] lg:right-30 lg:mt-10 md:mb-5">
+            <div className="bg-white/20 backdrop-blur-sm rounded-xl shadow-2xl p-10 md:p-10 text-center">
+
+              <h3 className="text-5xl md:text-4xl font-bold text-white">
                 Enquire Now
               </h3>
 
-              <p className="text-base text-white mt-2">
+              <p className="text-base md:text-sm text-white mt-2">
                 Speak with Nagpur Heights experts today.
               </p>
 
-              <form onSubmit={handleSubmit} className="mt-8 space-y-5">
+              <form onSubmit={handleSubmit} className="mt-8 md:mt-4 space-y-5 md:space-y-3">
+
                 <input
                   type="text"
                   name="name"
@@ -118,7 +115,7 @@ export default function LeadCapturePage() {
                   onChange={handleChange}
                   placeholder="Full Name"
                   required
-                  className="w-full px-5 py-4 border border-gray-300 text-white bg-transparent rounded-md"
+                  className="w-full px-5 py-4 md:py-3 border border-gray-300 text-white bg-transparent rounded-md"
                 />
 
                 <input
@@ -128,7 +125,7 @@ export default function LeadCapturePage() {
                   onChange={handleChange}
                   placeholder="Phone Number"
                   required
-                  className="w-full px-5 py-4 border border-gray-300 text-white bg-transparent rounded-md"
+                  className="w-full px-5 py-4 md:py-3 border border-gray-300 text-white bg-transparent rounded-md"
                 />
 
                 <input
@@ -137,7 +134,7 @@ export default function LeadCapturePage() {
                   value={formData.email}
                   onChange={handleChange}
                   placeholder="Email Address"
-                  className="w-full px-5 py-4 border border-gray-300 text-white bg-transparent rounded-md"
+                  className="w-full px-5 py-4 md:py-3 border border-gray-300 text-white bg-transparent rounded-md"
                 />
 
                 <select
@@ -145,9 +142,9 @@ export default function LeadCapturePage() {
                   value={formData.enquiryType}
                   onChange={handleChange}
                   required
-                  className="w-full px-5 py-4 border border-gray-300 bg-white text-gray-900 rounded-md"
+                  className="w-full px-5 py-4 md:py-3 border border-gray-300 bg-white text-gray-900 rounded-md"
                 >
-                  <option value="">What are you looking for?</option>
+                  <option value="">What</option>
                   <option value="Buy Property">Buy Property</option>
                   <option value="Site Visit">Schedule a Site Visit</option>
                   <option value="Sell / Rent">Sell or Rent Property</option>
@@ -158,7 +155,7 @@ export default function LeadCapturePage() {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full bg-blue-700 hover:bg-blue-800 disabled:opacity-60 text-white py-4 rounded-xl font-semibold text-lg transition"
+                  className="w-full bg-blue-700 hover:bg-blue-800 disabled:opacity-60 text-white py-4 md:py-3 rounded-xl font-semibold text-lg md:text-base transition"
                 >
                   {loading ? "Submitting..." : "Get Expert Assistance"}
                 </button>
@@ -178,6 +175,7 @@ export default function LeadCapturePage() {
                 <p className="text-xs text-gray-200 text-center pt-2">
                   We respect your privacy. Your details are safe with us.
                 </p>
+
               </form>
             </div>
           </div>
