@@ -89,7 +89,23 @@ export default function HeroCarousel() {
   return (
     <>
       {/* HERO SECTION */}
-      <section className="relative mt-18 sm:mt-90 lg:mt-16 h-[50vh] sm:h-[50vh] md:h-[70vh] lg:h-[90vh] w-screen bg-white overflow-hidden">
+     <section
+  className="
+    relative
+    mt-16
+    sm:mt-10
+    md:mt-16
+    lg:mt-18
+    h-[50vh]
+    sm:h-[50vh]
+    md:h-[70vh]
+    lg:h-[90vh]
+    w-screen
+    bg-white
+    overflow-hidden
+  "
+>
+
 
         {/* SLIDES */}
         {slides.map((slide, index) => (

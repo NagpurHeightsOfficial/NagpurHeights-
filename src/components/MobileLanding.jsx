@@ -66,7 +66,7 @@ export default function MobileProjectLanding() {
         <div className="absolute inset-0 bg-black/30" />
 
         {/* CONTENT */}
-        <div className="relative z-10 min-h-screen px-5 pt-20 pb-8 text-white flex flex-col">
+        <div className="relative z-10 min-h-screen px-5 pt-20 pb-8 text-white flex flex-col mt-4">
           <p className="text-sm tracking-wide opacity-90">
             Nagpur Heights
           </p>
@@ -82,7 +82,7 @@ export default function MobileProjectLanding() {
               />
             </p>
 
-            <div className="inline-flex items-center gap-2 text-2xl font-bold whitespace-nowrap mt-6">
+            <div className="inline-flex items-center gap-2 text-2xl font-bold whitespace-nowrap mt-12">
               <RotatingText
                 texts={["PLOTS", "FLATS", "VILLAS", "COMMERCIALS"]}
                 typingSpeed={60}
@@ -95,7 +95,7 @@ export default function MobileProjectLanding() {
           </div>
 
           {/* FORM */}
-          <div className="mt-40 bg-white/10 backdrop-blur-sm p-5 shadow-xl rounded-xl">
+          <div className="mt-50 bg-white/10 backdrop-blur-sm p-5 rounded-xl">
             <h3 className="text-3xl font-bold text-center">
               Enquire Now
             </h3>

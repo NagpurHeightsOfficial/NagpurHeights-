@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import Header from "@/components/Header";
+import Header from "@/components/HeaderMuali";
 import Footer from "@/components/Footer";
 import TextType from "@/components/SplitText";
 import RotatingText from "./RotatingText";
