@@ -56,7 +56,7 @@ export default function LeadCapturePage() {
         }}
       >
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/30" />
+        <div className="absolute inset-0 bg-black/10" />
 
         {/* MAIN CONTENT */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 min-h-screen flex items-center">
@@ -82,22 +82,22 @@ export default function LeadCapturePage() {
             {/* RIGHT FORM */}
             <div className="flex justify-center md:justify-end">
               <div
-  className="
-    w-full
-    max-w-sm
-    md:w-[450px]
-    lg:w-[430px]
-    lg:ml-20
-    xl:max-w-xl
-    bg-white/20
-    backdrop-blur-md
-    rounded-2xl
-    shadow-2xl
-    p-6
-    md:p-6
-    lg:p-8
-  "
->
+                  className="
+                    w-full
+                    max-w-sm
+                    md:w-[450px]
+                    lg:w-[430px]
+                    lg:ml-20
+                    xl:max-w-xl
+                    bg-white/20
+                    backdrop-blur-md
+                    rounded-2xl
+                    shadow-2xl
+                    p-6
+                    md:p-6
+                    lg:p-8
+                  "
+                >
 
 
                 <h3 className="text-3xl sm:text-4xl font-bold text-white text-center">
@@ -149,11 +149,13 @@ export default function LeadCapturePage() {
                     className="w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   >
                     <option value="">What are you looking for?</option>
-                    <option value="Buy Property">Buy Property</option>
-                    <option value="Site Visit">Schedule a Site Visit</option>
-                    <option value="Sell / Rent">Sell or Rent Property</option>
-                    <option value="Investment">Investment Opportunity</option>
-                    <option value="General Enquiry">General Enquiry</option>
+                    <option value="Muali Nagar 17, 18">Muali Nagar 17, 18</option>
+                    <option value="Muali Town 20">Muali Town 20</option>
+                    <option value="Muali Town 21">Muali Town 21</option>
+                    <option value="Muali Town 23, 24">Muali Town 23, 24</option>
+                    <option value="Muali Town 27, 28">Muali Town 27, 28</option>
+                    <option value="Muali Town 29">Muali Town 29</option>
+                    <option value="Muali Town 30, 31, 32">Muali Town 30, 31, 32</option>
                   </select>
 
                   <button

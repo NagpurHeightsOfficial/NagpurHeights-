@@ -131,11 +131,13 @@ export default function MobileProjectLanding() {
                 className="w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-md"
               >
                 <option value="">What are you looking for?</option>
-                <option value="Buy Property">Buy Property</option>
-                <option value="Site Visit">Schedule a Site Visit</option>
-                <option value="Sell / Rent">Sell or Rent Property</option>
-                <option value="Investment">Investment Opportunity</option>
-                <option value="General Enquiry">General Enquiry</option>
+                    <option value="Muali Nagar 17, 18">Muali Nagar 17, 18</option>
+                    <option value="Muali Town 20">Muali Town 20</option>
+                    <option value="Muali Town 21">Muali Town 21</option>
+                    <option value="Muali Town 23, 24">Muali Town 23, 24</option>
+                    <option value="Muali Town 27, 28">Muali Town 27, 28</option>
+                    <option value="Muali Town 29">Muali Town 29</option>
+                    <option value="Muali Town 30, 31, 32">Muali Town 30, 31, 32</option>
               </select>
 
               <button
