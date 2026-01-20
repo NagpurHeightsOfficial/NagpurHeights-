@@ -65,7 +65,12 @@ export default function LeadCapturePage() {
             {/* LEFT CONTENT */}
             <div className="text-white space-y-6">
               <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-semibold leading-tight">
-                Trusted real estate guidance for buyers, sellers, and investors in Nagpur.
+                <TextType
+                  text="Trusted real estate guidance for buyers, sellers, and investors in Nagpur."
+                  typingSpeed={80}
+                  delay={800}
+                  cursor={false}
+                />
               </h3>
 
               <p className="text-gray-200 max-w-xl text-sm sm:text-base">

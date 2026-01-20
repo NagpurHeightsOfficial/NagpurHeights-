@@ -1,6 +1,13 @@
 'use client';
 
-import { useEffect, useRef, useState, createElement, useMemo, useCallback } from 'react';
+import {
+  useEffect,
+  useRef,
+  useState,
+  createElement,
+  useMemo,
+  useCallback
+} from 'react';
 import { gsap } from 'gsap';
 import './TextType.css';
 
@@ -11,7 +18,7 @@ const TextType = ({
   initialDelay = 0,
   pauseDuration = 2000,
   deletingSpeed = 30,
-  loop = true,
+  loop = false, // 🔒 DEFAULT FALSE
   className = '',
   showCursor = true,
   hideCursorWhileTyping = false,
@@ -27,13 +34,17 @@ const TextType = ({
 }) => {
   const [displayedText, setDisplayedText] = useState('');
   const [currentCharIndex, setCurrentCharIndex] = useState(0);
-  const [isDeleting, setIsDeleting] = useState(false);
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [isVisible, setIsVisible] = useState(!startOnVisible);
+  const [hasCompleted, setHasCompleted] = useState(false); // ✅ NEW
+
   const cursorRef = useRef(null);
   const containerRef = useRef(null);
 
-  const textArray = useMemo(() => (Array.isArray(text) ? text : [text]), [text]);
+  const textArray = useMemo(
+    () => (Array.isArray(text) ? text : [text]),
+    [text]
+  );
 
   const getRandomSpeed = useCallback(() => {
     if (!variableSpeed) return typingSpeed;
@@ -46,6 +57,9 @@ const TextType = ({
     return textColors[currentTextIndex % textColors.length];
   };
 
+  /* -----------------------------------------
+     VISIBILITY OBSERVER
+  ------------------------------------------ */
   useEffect(() => {
     if (!startOnVisible || !containerRef.current) return;
 
@@ -64,91 +78,66 @@ const TextType = ({
     return () => observer.disconnect();
   }, [startOnVisible]);
 
+  /* -----------------------------------------
+     CURSOR BLINK (STOPS AFTER COMPLETE)
+  ------------------------------------------ */
   useEffect(() => {
-    if (showCursor && cursorRef.current) {
-      gsap.set(cursorRef.current, { opacity: 1 });
-      gsap.to(cursorRef.current, {
-        opacity: 0,
-        duration: cursorBlinkDuration,
-        repeat: -1,
-        yoyo: true,
-        ease: 'power2.inOut'
-      });
-    }
-  }, [showCursor, cursorBlinkDuration]);
+    if (!showCursor || !cursorRef.current || hasCompleted) return;
 
+    gsap.set(cursorRef.current, { opacity: 1 });
+    gsap.to(cursorRef.current, {
+      opacity: 0,
+      duration: cursorBlinkDuration,
+      repeat: -1,
+      yoyo: true,
+      ease: 'power2.inOut'
+    });
+
+    return () => gsap.killTweensOf(cursorRef.current);
+  }, [showCursor, cursorBlinkDuration, hasCompleted]);
+
+  /* -----------------------------------------
+     TYPING LOGIC (RUNS ONLY ONCE)
+  ------------------------------------------ */
   useEffect(() => {
-    if (!isVisible) return;
+    if (!isVisible || hasCompleted) return;
 
     let timeout;
     const currentText = textArray[currentTextIndex];
-    const processedText = reverseMode ? currentText.split('').reverse().join('') : currentText;
+    const processedText = reverseMode
+      ? currentText.split('').reverse().join('')
+      : currentText;
 
-    const executeTypingAnimation = () => {
-      if (isDeleting) {
-        if (displayedText === '') {
-          setIsDeleting(false);
-          if (currentTextIndex === textArray.length - 1 && !loop) {
-            return;
-          }
-
-          if (onSentenceComplete) {
-            onSentenceComplete(textArray[currentTextIndex], currentTextIndex);
-          }
-
-          setCurrentTextIndex(prev => (prev + 1) % textArray.length);
-          setCurrentCharIndex(0);
-          timeout = setTimeout(() => {}, pauseDuration);
-        } else {
-          timeout = setTimeout(() => {
-            setDisplayedText(prev => prev.slice(0, -1));
-          }, deletingSpeed);
-        }
-      } else {
-        if (currentCharIndex < processedText.length) {
-          timeout = setTimeout(
-            () => {
-              setDisplayedText(prev => prev + processedText[currentCharIndex]);
-              setCurrentCharIndex(prev => prev + 1);
-            },
-            variableSpeed ? getRandomSpeed() : typingSpeed
-          );
-        } else if (textArray.length >= 1) {
-          if (!loop && currentTextIndex === textArray.length - 1) return;
-          timeout = setTimeout(() => {
-            setIsDeleting(true);
-          }, pauseDuration);
-        }
-      }
-    };
-
-    if (currentCharIndex === 0 && !isDeleting && displayedText === '') {
-      timeout = setTimeout(executeTypingAnimation, initialDelay);
+    if (currentCharIndex < processedText.length) {
+      timeout = setTimeout(() => {
+        setDisplayedText(prev => prev + processedText[currentCharIndex]);
+        setCurrentCharIndex(prev => prev + 1);
+      }, variableSpeed ? getRandomSpeed() : typingSpeed);
     } else {
-      executeTypingAnimation();
+      // ✅ Typing finished — HARD STOP
+      setHasCompleted(true);
+
+      if (onSentenceComplete) {
+        onSentenceComplete(currentText, currentTextIndex);
+      }
     }
 
     return () => clearTimeout(timeout);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
     currentCharIndex,
-    displayedText,
-    isDeleting,
+    isVisible,
     typingSpeed,
-    deletingSpeed,
-    pauseDuration,
     textArray,
     currentTextIndex,
-    loop,
-    initialDelay,
-    isVisible,
     reverseMode,
     variableSpeed,
+    getRandomSpeed,
+    hasCompleted,
     onSentenceComplete
   ]);
 
   const shouldHideCursor =
-    hideCursorWhileTyping && (currentCharIndex < textArray[currentTextIndex].length || isDeleting);
+    hideCursorWhileTyping && !hasCompleted;
 
   return createElement(
     Component,
@@ -157,13 +146,18 @@ const TextType = ({
       className: `text-type ${className}`,
       ...props
     },
-    <span className="text-type__content" style={{ color: getCurrentTextColor() || 'inherit' }}>
+    <span
+      className="text-type__content"
+      style={{ color: getCurrentTextColor() || 'inherit' }}
+    >
       {displayedText}
     </span>,
     showCursor && (
       <span
         ref={cursorRef}
-        className={`text-type__cursor ${cursorClassName} ${shouldHideCursor ? 'text-type__cursor--hidden' : ''}`}
+        className={`text-type__cursor ${cursorClassName} ${
+          shouldHideCursor ? 'text-type__cursor--hidden' : ''
+        }`}
       >
         {cursorCharacter}
       </span>
