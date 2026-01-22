@@ -146,7 +146,7 @@ export default function LeadCapturePage() {
                     value={formData.enquiryType}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full px-4 py-3 border border-gray-300 bg-transperent text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   >
                     <option value="">What are you looking for?</option>
                     <option value="Muali Nagar 17, 18">Muali Nagar 17, 18</option>

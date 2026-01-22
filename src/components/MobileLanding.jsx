@@ -101,7 +101,7 @@ export default function MobileProjectLanding() {
                 onChange={handleChange}
                 placeholder="Full Name"
                 required
-                className="w-full px-4 py-3 border border-gray-300 text-gray-900 rounded-md"
+                className="w-full px-4 py-3 border border-gray-300 text-white-900 rounded-md"
               />
 
               <input
@@ -111,7 +111,7 @@ export default function MobileProjectLanding() {
                 onChange={handleChange}
                 placeholder="Phone Number"
                 required
-                className="w-full px-4 py-3 border border-gray-300 text-gray-900 rounded-md"
+                className="w-full px-4 py-3 border border-gray-300 text-white-900 rounded-md"
               />
 
               <input
@@ -120,7 +120,7 @@ export default function MobileProjectLanding() {
                 value={formData.email}
                 onChange={handleChange}
                 placeholder="Email Address"
-                className="w-full px-4 py-3 border border-gray-300 text-gray-900 rounded-md"
+                className="w-full px-4 py-3 border border-gray-300 text-white-900 rounded-md"
               />
 
               <select
@@ -128,7 +128,7 @@ export default function MobileProjectLanding() {
                 value={formData.enquiryType}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-md"
+                className="w-full px-4 py-3 border border-gray-300 bg-transperent text-white-900 rounded-md"
               >
                 <option value="">What are you looking for?</option>
                     <option value="Muali Nagar 17, 18">Muali Nagar 17, 18</option>
