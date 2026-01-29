@@ -273,7 +273,7 @@
       "price": "₹ 1800-2000 /sq.ft",
       "type": "Plots",
       "images": [
-        "/images/10.1.jpg",
+        "/images/10.1.webp",
         "/images/Infinia2.PNG",
         "/images/Infinia3.PNG",
         "/images/Infinia4.PNG",
@@ -781,17 +781,17 @@
       "description": "Nagpur Marina offers a unique investment opportunity in one of India’s fastest-growing cities. With Nagpur’s booming economy, rising demand for land, and strategic location near Samruddhi Mahamarg Circle, this is the perfect time to invest. Hoabl Plots Nagpur provides 1250  SQFT. plots at just ₹62.49 lakh All-in*, with a potential 5.2X growth as the city continues its rapid development. Don’t miss out on securing a piece of Nagpur’s future – invest in the Nagpur Marina today!",
       "whatsapp": "9953216767"
     },
-        {
+      {
       "id": 28,
-      "title": "Mauli Nagar 17, 18",
+      "title": "Mauli Town 17, 18",
       "location": "Sankarpur, Nagpur",
       "area": "1130 - 5884 sq.ft",
       "price": "₹32.5 L - 98.05 L",
       "type": "Plots",
       "images": [
-        "/images/m-1.jpg",
-        "/images/m-2.jpg",
-        "/images/m-3.jpg"
+        "/images/28.1.jpg",
+        "/images/28.2.jpg",
+        "/images/28.3.jpg"
       ],
       "Phases": [
         1,
@@ -805,7 +805,339 @@
       "info": "Residential NA plotted layout, Clear plot demarcation, Wide 9m and 12m internal roads, Planned green zones, Peaceful low density environment, Excellent Wardha Road connectivity, Close to MIHAN and IT hubs, Nearby schools and hospitals, Bank finance available, Designed for independent home construction, Low maintenance infrastructure, Ideal for long term investment",
       "description": "Mauli Nagar 17/18 by Mauli Group is a well-planned residential plotted development near Wardha Road, Nagpur, offering NA plots in a peaceful and green environment. With strong connectivity to MIHAN, the airport, educational institutions, and city infrastructure, the project is designed for families seeking independent homes as well as investors looking for secure long-term appreciation.",
       "whatsapp": "9953216767"
+    },
+    {
+      "id": 29,
+      "title": "Mauli Town 20",
+      "location": "Panjari New Kapri, Nagpur",
+      "area": "1280 - 15000 sq.ft",
+      "price": "₹37.3 L - 5.05 Cr",
+      "type": "Plots",
+      "images": [
+        "/images/29.1.png",
+        "/images/29.2.png",
+        "/images/29.3.png",
+        "/images/29.4.png",
+        "/images/29.5.png"
+      ],
+      "Phases": [
+        1,
+        2
+      ],
+      "Completion_Date_of_phases": [
+        "Launched in Mar 2024",
+        "Possession in 2027"
+      ],
+     "amenities": "Landscaped garden, Jogging track, Children’s play area, Sit out seating area, Green gym, Open recreational spaces, Internal cement concrete roads, Street lighting, Underground electrical network, Transformer provision, Underground drainage system, Water pipeline network",
+      "info": "Residential NA plotted layout, Clear plot demarcation, Serene Butterfly Garden, Strategic Nagpur Location, 12m Wide Roads for Easy Access, Luxurious Lifestyle Offerings, Community Open Spaces, Open Plot Layout with 60ft Road, Just 8 km from Manish Nagar, Just 7 km from Outer Ring Road, Trustworthy Quality Developer",
+      "description": "Mauli Town 20 in New Khapri, Nagpur, is a newly launched residential project by Mauli Group Nagpur, scheduled for possession in December 2027. Spread across 2.17 acres with about 52 units in a single phase, the project is RERA-registered (No. P50500055386), ensuring transparency for buyers and investors. It offers modern amenities such as a gymnasium, children’s play area, and park, with excellent connectivity to Khapri railway station, Khapri metro station, and the new airport metro station—the railway station being the closest. Located at Panjari Farm, the society has seen property prices in the area rise by 10.2% in the past year, making it an attractive option for homebuyers.",
+      "whatsapp": "9953216767"
+    },
+    {
+      "id": 30,
+      "title": "Mauli Town 21",
+      "location": "Mohagaon, Nagpur",
+      "area": "1000 - 7000 sq.ft",
+      "price": "₹ 20.0 Lac - ₹ 1.44 Cr",
+      "type": "Plots",
+      "images": [
+        "/images/30.1.png",
+        "/images/30.2.png",
+        "/images/30.3.png",
+        "/images/30.4.png"
+      ],
+      "Phases": [
+        1,
+        2
+      ],
+      "Completion_Date_of_phases": [
+        "Launched in Feb 2024",
+        "Possession Started"
+      ],
+     "amenities": "Club house, swimming pool, security, CCTV camera, power backup, park, CBSE pattern school, basketball court, green gym, jogging track, kids play area, cement roads, drainage line, sewage line, water pipeline, underground electric network, street lights, footpath, plantation in gardens and overall layout, community entrance gate, sewage treatment plant.",
+      "info": "NMRDA Sanctioned Land, Ready to move plots with RL, RERA Registered RL plots, Plot size starting from 1093 sq feet, Fully developed layout, Opposite gaikwad patil college of engineering, Near schools, colleges & hospitals, Main wardha road touch near metro station & city bus stop, Nationalized Bank Finance available upto 90%, Gated society development like township pattern, Wardha road touch, Gaikwad enge. college - 100 mtr, DRDO - 150 mtr, IIIT - 1 KM, ZERO mile - 20 km, Chatrapati Sq. 16-KM, Buttibori - 3km, MNLU - 1.5 km",
+      "description": "Mauli Town 21 in Mohagaon, Nagpur, is a newly launched residential project by Mauli Group Nagpur, ready for possession. Spread across 2.17 acres with about 52 units in a single phase, the project is RERA-registered (No. P50500055386), ensuring transparency for buyers and investors. It offers modern amenities such as a gymnasium, children’s play area, and park, with excellent connectivity to Khapri railway station, Khapri metro station, and the new airport metro station—the railway station being the closest. Located at Panjari Farm, the society has seen property prices in the area rise by 10.2% in the past year, making it an attractive option for homebuyers.",
+      "whatsapp": "9953216767"
     }
+    ,
+    {
+      "id": 31,
+      "title": "Mauli Town 23, 24",
+      "location": "Mohagaon, Nagpur",
+      "area": "970 - 3400 sq.ft",
+      "price": "₹ 20.0 Lac - ₹ 1.44 Cr",
+      "type": "Plots",
+      "images": [
+        "/images/31.1.png",
+        "/images/31.2.png",
+        "/images/30.3.png",
+        "/images/30.4.png"
+      ],
+      "Phases": [
+        1,
+        2
+      ],
+      "Completion_Date_of_phases": [
+        "Launched in Feb 2024",
+        "Possession Started"
+      ],
+     "amenities": "Club house, swimming pool, security, CCTV camera, power backup, park, CBSE pattern school, basketball court, green gym, jogging track, kids play area, cement roads, drainage line, sewage line, water pipeline, underground electric network, street lights, footpath, plantation in gardens and overall layout, community entrance gate, sewage treatment plant.",
+      "info": "NMRDA Sanctioned Land, Ready to move plots with RL, RERA Registered RL plots, Plot size starting from 1093 sq feet, Fully developed layout, Opposite gaikwad patil college of engineering, Near schools, colleges & hospitals, Main wardha road touch near metro station & city bus stop, Nationalized Bank Finance available upto 90%, Gated society development like township pattern, Wardha road touch, Gaikwad enge. college - 100 mtr, DRDO - 150 mtr, IIIT - 1 KM, ZERO mile - 20 km, Chatrapati Sq. 16-KM, Buttibori - 3km, MNLU - 1.5 km",
+      "description": "Mauli Town 23, 24 in Mohagaon, Nagpur, is a newly launched residential project by Mauli Group Nagpur, ready for possession. Spread across 2.17 acres with about 52 units in a single phase,  It offers modern amenities such as a gymnasium, children’s play area, and park, with excellent connectivity to Khapri railway station, Khapri metro station, and the new airport metro station—the railway station being the closest. Located at Panjari Farm, the society has seen property prices in the area rise by 10.2% in the past year, making it an attractive option for homebuyers.",
+      "whatsapp": "9953216767"
+    }
+    ,
+    {
+      "id": 32,
+      "title": "Mauli Town 27, 28",
+      "location": "Mohagaon, Nagpur",
+      "area": "1100 - 2070 sq.ft",
+      "price": "₹ 28.0 Lac - ₹ 1.20 Cr",
+      "type": "Plots",
+      "images": [
+        "/images/32.1.png",
+        "/images/32.2.png",
+        "/images/32.3.png"
+      ],
+      "Phases": [
+        1,
+        2
+      ],
+      "Completion_Date_of_phases": [
+        "Launched in Feb 2024",
+        "Possession Started"
+      ],
+     "amenities": "Club house, swimming pool, security, CCTV camera, power backup, park, CBSE pattern school, basketball court, green gym, jogging track, kids play area, cement roads, drainage line, sewage line, water pipeline, underground electric network, street lights, footpath, plantation in gardens and overall layout, community entrance gate, sewage treatment plant.",
+      "info": "NMRDA Sanctioned Land, Ready to move plots with RL, RERA Registered RL plots, Plot size starting from 1093 sq feet, Fully developed layout, Opposite gaikwad patil college of engineering, Near schools, colleges & hospitals, Main wardha road touch near metro station & city bus stop, Nationalized Bank Finance available upto 90%, Gated society development like township pattern, Wardha road touch, Gaikwad enge. college - 100 mtr, DRDO - 150 mtr, IIIT - 1 KM, ZERO mile - 20 km, Chatrapati Sq. 16-KM, Buttibori - 3km, MNLU - 1.5 km",
+      "description": "Mauli Town 27, 28 in Mohagaon, Nagpur, is a newly launched residential project by Mauli Group Nagpur, ready for possession. Spread across 2.17 acres with about 52 units in a single phase,  It offers modern amenities such as a gymnasium, children’s play area, and park, with excellent connectivity to Khapri railway station, Khapri metro station, and the new airport metro station—the railway station being the closest. Located at Panjari Farm, the society has seen property prices in the area rise by 10.2% in the past year, making it an attractive option for homebuyers.",
+      "whatsapp": "9953216767"
+    }
+     ,
+    {
+      "id": 33,
+      "title": "Mauli Town 29",
+      "location": "Mohagaon, Nagpur",
+      "area": "1100 - 5060 sq.ft",
+      "price": "₹ 41 Lac - ₹ 16.95 Cr",
+      "type": "Plots",
+      "images": [
+        "/images/33.1.png",
+        "/images/33.2.png",
+        "/images/33.3.png",
+        "/images/33.4.png"
+      ],
+      "Phases": [
+        1,
+        2
+      ],
+      "Completion_Date_of_phases": [
+        "Launched in Feb 2024",
+        "Possession Started"
+      ],
+     "amenities": "Club house, swimming pool, security, CCTV camera, power backup, park, CBSE pattern school, basketball court, green gym, jogging track, kids play area, cement roads, drainage line, sewage line, water pipeline, underground electric network, street lights, footpath, plantation in gardens and overall layout, community entrance gate, sewage treatment plant.",
+      "info": "NMRDA Sanctioned Land, Ready to move plots with RL, RERA Registered RL plots, Plot size starting from 1093 sq feet, Fully developed layout, Opposite gaikwad patil college of engineering, Near schools, colleges & hospitals, Main wardha road touch near metro station & city bus stop, Nationalized Bank Finance available upto 90%, Gated society development like township pattern, Wardha road touch, Gaikwad enge. college - 100 mtr, DRDO - 150 mtr, IIIT - 1 KM, ZERO mile - 20 km, Chatrapati Sq. 16-KM, Buttibori - 3km, MNLU - 1.5 km",
+      "description": "Mauli Unicorn 29 in Pipla, Nagpur, is a newly launched residential project by Mauli Group Nagpur, ready for possession. It offers modern amenities such as a gymnasium, children’s play area, and park, with excellent connectivity to Khapri railway station, Khapri metro station, and the new airport metro station—the railway station being the closest. Located at Panjari Farm, the society has seen property prices in the area rise by 10.2% in the past year, making it an attractive option for homebuyers.",
+      "whatsapp": "9953216767"
+    }
+    ,
+    {
+      "id": 34,
+      "title": "Mauli Town 30, 31, 32",
+      "location": "Bothali, Nagpur",
+      "area": "950- 1610 sq.ft",
+      "price": "₹ 19 Lac - ₹ 53 Lac",
+      "type": "Plots",
+      "images": [
+        "/images/34.1.png",
+        "/images/34.2.png",
+        "/images/34.3.png",
+        "/images/34.4.png",
+        "/images/34.5.png"
+
+      ],
+      "Phases": [
+        1,
+        2
+      ],
+      "Completion_Date_of_phases": [
+        "Launched in Feb 2024",
+        "Possession Started"
+      ],
+     "amenities": "Club house, swimming pool, security, CCTV camera, power backup, park, CBSE pattern school, basketball court, green gym, jogging track, kids play area, cement roads, drainage line, sewage line, water pipeline, underground electric network, street lights, footpath, plantation in gardens and overall layout, community entrance gate, sewage treatment plant.",
+      "info": "NMRDA Sanctioned Land, Ready to move plots with RL, RERA Registered RL plots, Plot size starting from 1093 sq feet, Fully developed layout, Opposite gaikwad patil college of engineering, Near schools, colleges & hospitals, Main wardha road touch near metro station & city bus stop, Nationalized Bank Finance available upto 90%, Gated society development like township pattern, Wardha road touch, Gaikwad enge. college - 100 mtr, DRDO - 150 mtr, IIIT - 1 KM, ZERO mile - 20 km, Chatrapati Sq. 16-KM, Buttibori - 3km, MNLU - 1.5 km",
+      "description": "Mauli Town 30 is a residential plot by Mauli Infra. This plot is available for sale in Bhothali, Wardha Road , Nagpur. The plot area start from 949 sq.ft to 1610 sqft. There are 178 units in Mauli Infratech Mauli Nagar 30. The address of Mauli Infratech Mauli Nagar 30 KH. No.30, Bothali, Wardha Road, Nagpur. Mauli Infratech Mauli Nagar 30 ensures a coveted lifestyle and offers a convenient living. Other provisions include access to Landscaping & Tree Planting, Storm Water Drains.",
+      "whatsapp": "9953216767"
+    }
+    ,
+    {
+      "id": 35,
+      "title": "Tuljai Imperial - A&T Buildcon",
+      "location": "Wanjari Nagar, Nagpur",
+      "area": "2000 sq.ft",
+      "price": "₹ - On Request",
+      "type": "3 BHK Flats",
+      "images": [
+        "/images/35.1.png",
+        "/images/35.2.png",
+        "/images/35.3.png"
+      ],
+      "Phases": [
+        1,
+        2
+      ],
+      "Completion_Date_of_phases": [
+        "Launched",
+        "Possession Started"
+      ],
+     "amenities": "CCTV surveillance, covered parking, power backup for lift, 8 passenger lift, solar power for common areas, premium glass balcony railing, staircase SS railing, false ceiling in living and dining, UPVC sliding windows with mosquito net, semi modular kitchen, granite kitchen platform, stainless steel sink, dry balcony, branded sanitary fittings, modern bathroom fixtures, antiskid bathroom tiles, concealed electrical wiring, modular switches, Wi-Fi and cable TV point, AC points in all bedrooms and living room",
+      "info": "Premium 3 BHK residential project, spacious single flat per floor, carpet area 1241 sq.ft, built up area 1626 sq.ft, super built up area 1990 sq.ft, modern RCC framed structure, located in prime Wanjari Nagar area, near Ajni Road, close to Medical Square and GMC, well connected via 9 meter wide road, ideal for family living, quality construction with premium specifications, extra charges as per government norms, possession as per developer schedule",
+      "description": "Tuljai Imperial is strategically located near Ajni Road, Wanjari Nagar, with proximity to well-known landmarks such as Medical Square, Tukdoji Square, GMC Area, Kendriya Vidyalaya, and Krida Square. The location map highlights access via 9-meter-wide roads, suggesting good vehicular movement and connectivity",
+      "whatsapp": "9953216767"
+    }
+     ,
+    {
+  "id": 36,
+  "title": "Rohini Apartment - A&T Buildcon",
+  "location": "Savarkar Nagar, Ajni, Nagpur",
+  "area": "1500 sq.ft",
+  "price": "₹ - On Request",
+  "type": "3 BHK Flats",
+  "images": [
+    "/images/36.1.png",
+    "/images/36.2.png",
+    "/images/36.3.png"
+  ],
+  "Phases": [
+    1
+  ],
+  "Completion_Date_of_phases": [
+    "Possession as per developer schedule"
+  ],
+  "amenities": "CCTV surveillance, covered parking, power backup for lift, 6 passenger lift with generator backup, solar power for common areas, rain water harvesting, EV charging point, vastu compliant homes, POP false ceiling in hall and dining, premium glass and SS balcony railing, vitrified flooring, powder coated aluminium sliding windows, semi modular kitchen, granite kitchen platform, stainless steel sink, dry balcony, branded sanitary fittings, modern bathroom fixtures, antiskid bathroom tiles, concealed electrical wiring, modular switches, Wi-Fi and cable TV point, AC points in all bedrooms and living room, tree plantation",
+  "info": "Premium 3 BHK apartment project, carpet area 987.27 sq.ft, built up area 1225.37 sq.ft, super built up area 1532.80 sq.ft, modern RCC framed structure, located at Savarkar Nagar Ajni Nagpur, close to Khamla Square and Ajni Road, excellent connectivity towards Chatrapati Square, low density residential building, quality construction with premium specifications, suitable for end use family living, extra charges as per government norms",
+  "description": "34 Rohini is a premium 3 BHK residential apartment project by A & T Buildcon, strategically located at  Ajni, Nagpur. The project offers spacious layouts, modern architecture, and essential lifestyle amenities with excellent connectivity to Khamla Square, Ajni Road, and Chatrapati Square, making it ideal for comfortable family living.",
+  "whatsapp": "9953216767"
+} ,
+{
+  "id": 37,
+  "title": "Sohamdhvani - A&T Buildcon",
+  "location": "Savarkar Nagar, Khamla Square, Nagpur",
+  "area": "1500 - 2000 sq.ft",
+  "price": "₹ - On Request",
+  "type": "3 BHK Flats",
+  "images": [
+    "/images/37.1.png",
+    "/images/37.2.png",
+    "/images/37.3.png"
+  ],
+  "Phases": [
+    1
+  ],
+  "Completion_Date_of_phases": [
+    "Possession as per developer schedule"
+  ],
+  "amenities": "CCTV surveillance, video door calling, covered allotted parking, power backup for lift, 6 passenger lift with generator backup, solar power for common areas, POP fall ceiling in living and dining area, UPVC sliding windows with mosquito net, premium glass balcony railing, SS staircase railing, semi modular kitchen, granite kitchen platform, stainless steel sink, dry balcony, branded sanitary fittings, Jaquar or equivalent bathroom fixtures, antiskid bathroom floor tiles, digital wall tiles, concealed copper wiring, modular switches, Wi-Fi and cable TV point, AC points in all bedrooms and living room",
+  "info": "Premium 3 BHK luxurious flats, modern RCC framed structure, well planned floor layouts with balconies and terrace, located at Plot No 13 Savarkar Nagar Nagpur, close to Khamla Square and Chatrapati Square, excellent connectivity to Pratap Nagar Deo Nagar Laxmi Nagar and Airport road, quality construction with premium specifications, low density residential building, ideal for family living, extra charges applicable as per government norms",
+  "description": "Sohamdhvani is a premium 3 BHK residential apartment project by A & T Buildcon, located at Khamla Square, Nagpur. The project offers spacious layouts, modern elevation, essential lifestyle amenities, and excellent city connectivity, making it an ideal choice for comfortable and peaceful family living.",
+  "whatsapp": "9953216767"
+}
+,
+{
+  "id": 38,
+  "title": "Damodar Apartment - M&T Buildcon",
+  "location": "Pande Layout, Khamla Square, Nagpur",
+  "area": "1500 - 2000 sq.ft",
+  "price": "₹ - On Request",
+  "type": "3 BHK Flats",
+  "images": [
+    "/images/38.1.png",
+    "/images/38.2.png"
+  ],
+  "Phases": [
+    1
+  ],
+  "Completion_Date_of_phases": [
+    "Possession as per developer schedule"
+  ],
+  "amenities": "CCTV surveillance, video door calling, covered allotted parking for 1 car and 2 scooters, power backup for lift, 8 passenger lift with generator backup, POP ceiling in drawing hall and dining area, powder coated aluminium sliding windows with mosquito net, secured main door with multi locking system, premium glass balcony railing, SS staircase railing, semi modular kitchen with granite platform, stainless steel sink, vitrified tiles in wash area, branded sanitary fittings, modern bathroom fixtures, antiskid bathroom floor tiles, digital wall tiles, concealed copper wiring, modular switches, Wi-Fi and cable TV point, AC points in all bedrooms with inverter wiring",
+  "info": "Premium 3 BHK luxurious apartments, modern RCC framed structure, carpet friendly spacious layouts, located at Plot No 22A Pande Layout Khamla Nagpur, close to Khamla Square Wardha Road and Chatrapati Square, excellent city connectivity towards Pratap Nagar and Wardha Road, quality construction with premium specifications, low density residential building, ideal for family living, extra charges applicable as per government norms",
+  "description": "Damodar Apartment is a premium 3 BHK residential project by M&T Buildcon, located at Pande Layout near Khamla Square, Nagpur. Designed for modern family living, the project offers spacious homes, premium specifications, essential security features, and excellent connectivity where comfort truly meets convenience.",
+  "whatsapp": "9953216767"
+}
+,
+{
+  "id": 39,
+  "title": "Prathamesh Apartment - M&T Buildcon",
+  "location": "Pande Layout, Khamla Main Road, Nagpur",
+  "area": "1500 - 2000 sq.ft",
+  "price": "₹ - On Request",
+  "type": "3 BHK Flats",
+  "images": [
+    "/images/39.1.png",
+    "/images/39.3.png",
+    "/images/39.4.png",
+    "/images/39.5.png"
+  ],
+  "Phases": [
+    1
+  ],
+  "Completion_Date_of_phases": [
+    "Possession as per developer schedule"
+  ],
+  "amenities": "CCTV surveillance, video door phone in all flats, covered allotted parking with parking tiles, power backup for lift, 8 passenger lift with generator backup, stretcher lift, solar water heater, POP ceiling in living and dining area, powder coated aluminium sliding windows, laminated internal doors, premium glass and SS balcony railing, semi modular kitchen, granite kitchen platform, stainless steel sink, tiles above kitchen platform and dry balcony, branded sanitary fittings, Jaquar or equivalent bathroom fixtures, antiskid bathroom floor tiles, digital wall tiles, concealed copper wiring, modular switches, Wi-Fi and cable TV point, AC points in all bedrooms and living room",
+  "info": "Premium 3 BHK luxurious apartments, G plus 7 floor residential project, modern RCC framed structure, well ventilated and spacious layouts, located at Plot No 172 Pande Layout Khamla Nagpur, close to Khamla Square and Wardha Road, excellent connectivity towards Dharampeth and Jaiprakash Nagar, quality construction with premium specifications, low density residential building, ideal for family living, extra charges applicable as per government norms",
+  "description": "Prathamesh Apartment is a premium 3 BHK residential project by M&T Buildcon, located at Pande Layout near Khamla Main Road, Nagpur. Designed to balance comfort, affordability, and modern living, the project offers spacious homes, contemporary amenities, and excellent connectivity in one of Nagpur’s well-developed residential areas.",
+  "whatsapp": "9953216767"
+}
+,
+{
+  "id": 40,
+  "title": "Sonali Apartment - M&T Buildcon",
+  "location": "Pande Layout, Khamla Square, Nagpur",
+  "area": "1500 - 2000 sq.ft",
+  "price": "₹ - On Request",
+  "type": "3 BHK Flats",
+  "images": [
+    "/images/40.1.png",
+    "/images/40.2.png",
+    "/images/40.3.png"
+  ],
+  "Phases": [
+    1
+  ],
+  "Completion_Date_of_phases": [
+    "Possession as per developer schedule"
+  ],
+  "amenities": "CCTV surveillance, video door phone in all flats, covered allotted parking, power backup for lift, 8 passenger lift with generator backup, stretcher lift, POP ceiling in living and dining area, powder coated aluminium sliding windows, laminated internal doors, premium SS and glass balcony railing, semi modular kitchen with granite platform, stainless steel sink, tiles above kitchen platform, dry balcony, branded sanitary fittings, Jaquar or equivalent bathroom fixtures, antiskid bathroom floor tiles, digital wall tiles, concealed copper wiring, modular switches, Wi-Fi and cable TV point, AC points in all bedrooms and living room",
+  "info": "Premium 3 BHK luxury apartments, modern RCC framed structure, well planned floor layouts with balconies and terrace, located at Plot No 51 Pande Layout Khamla Nagpur, close to Khamla Square and Malviya Nagar, excellent connectivity within Pande Layout and surrounding residential areas, quality construction with premium specifications, low density residential building, ideal for family living, extra charges applicable as per government norms",
+  "description": "Sonali Apartment is a premium 3 BHK residential project by M&T Buildcon, located at Pande Layout near Khamla Square, Nagpur. The project offers thoughtfully planned homes with modern amenities, strong construction quality, and excellent neighborhood connectivity, making it an ideal choice for comfortable urban family living.",
+  "whatsapp": "9953216767"
+}
+,
+{
+  "id": 41,
+  "title": "Enrise Dwarka - Sai Dwarka Developers",
+  "location": "Pratap Nagar, Nagpur, Maharashtra",
+  "area": "1500 - 3000 sq.ft",
+  "price": "₹ 1.15 Cr - ₹ 2.30 Cr",
+  "type": "3 BHK & 5 BHK Flats",
+  "images": [
+    "/images/41.1.png",
+    "/images/41.2.png",
+    "/images/41.3.png",
+    "/images/41.4.png"
+  ],
+  "Phases": [
+    1
+  ],
+  "Completion_Date_of_phases": [
+    "Possession as per developer schedule"
+  ],
+  "amenities": "24 hrs CCTV surveillance, security guard, video door phone, elevator with power backup, 8 passenger high speed lift, fire lift, solar panel for common areas, rain water harvesting system, EV charging point for four wheeler, automatic water control system, modern designer POP with lights, terrace party and get together area, terrace gazebo seating, terrace ambience lighting, semi modular kitchen with branded chimney, modern designer finished bathrooms, Jaquar or equivalent bathroom fittings, inverter provision, auto sensor lights in parking area, SS and glass balcony railing, parking as per designated slots",
+  "info": "Premium residential project offering luxurious 3 BHK and spacious 5 BHK apartments, earthquake resistant RCC framed structure, Italian finish vitrified flooring in living dining and bedrooms, anti skid ceramic tiles in bathrooms and balconies, EW entry and SE kitchen vastu compliant homes, located in prime Pratap Nagar area of Nagpur, excellent connectivity to city landmarks, thoughtfully planned layouts with large balconies and terrace spaces, quality construction with premium specifications, extra charges applicable as per government norms",
+  "description": "Enrise Dwarka is a premium residential development by Sai Dwarka Developers, located in Pratap Nagar, Nagpur. The project offers luxurious 3 BHK homes and expansive 5 BHK residences designed for upscale urban living, featuring modern amenities, vastu compliant layouts, terrace lifestyle spaces, and high quality specifications for a truly elegant living experience.",
+  "whatsapp": "9953216767"
+}
   ],
   "blogs": [
     {

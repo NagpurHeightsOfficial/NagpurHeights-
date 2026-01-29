@@ -159,7 +159,7 @@ export default function PropertyDetails({ params }) {
 
                     <div>
                       <p className="text-sm">
-                        <strong>{phase} Phase</strong> is New Launch
+                        <strong>{phase} Phase </strong> :
                       </p>
                       <p className="text-sm text-gray-500">
                         {property.Completion_Date_of_phases[index]}
