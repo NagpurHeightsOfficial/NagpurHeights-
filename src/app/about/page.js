@@ -92,7 +92,7 @@ const About = () => {
       name: "Shailesh Panghate",
       role: "Head of IT Opeartions",
       bio: "Technology lead managing digital infrastructure, website performance, and IT systems to support seamless business operations.",
-      image: "null"
+      image: "images/teamimages/Shailesh.png"
     },  
        {
       name: "Shobhit Bawangarh",
@@ -104,13 +104,7 @@ const About = () => {
       name: "Bhavesh Chawre",
       role: "Web Developer/Designer",
       bio: "Web Developer & Designer skilled in creating responsive, user-friendly websites and web applications with modern UI/UX, clean code, and scalable solutions.",
-      image: "images/teamimages/Bhavesh.jpeg"
-    }, 
-    {
-      name: "Sudarshan Mahule",
-      role: "Sales Executive",
-      bio: "Results-driven sales executive dedicated to understanding client needs and delivering the right property solutions.",
-      image: "null"
+      image: "images/teamimages/Bhavesh.png"
     },
     {
       name: "Vrundita Jamkar",
@@ -120,21 +114,21 @@ const About = () => {
     },
     {
       name: "Harsh Tandulwar",
-      role: "Visual Editor",
-      bio: "Creative visual editor crafting engaging images and videos that enhance property listings and brand storytelling.",
+      role: "Web Developer",
+      bio: "Web developer responsible for building, maintaining, and optimizing the company’s digital platforms and user experience.",
       image: "/images/teamimages/Harsh.jpeg"
-    },
-    {
-      name: "Pawan Kadam",
-      role: "Visual Media Specialist",
-      bio: "Visual media expert specializing in photography and video content to showcase properties with maximum impact.",
-      image: "/images/teamimages/Pawan.jpeg"
     },
     {
       name: "Aditya Jadhav",
       role: "Visual Editor",
       bio: "Detail-oriented visual editor focused on high-quality visuals that elevate marketing campaigns and digital presence.",
       image: "/images/teamimages/Aditiya.jpeg"
+    },
+      {
+      name: "Sumit Kumbhalkar",
+      role: "Visual Editor",
+      bio: "A meticulous visual editor dedicated to creating stunning visuals that enhance marketing campaigns and boost digital presence.",
+      image: "/images/teamimages/Sumit.png"
     },
 
   ];
