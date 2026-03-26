@@ -21,8 +21,7 @@ const Contact = () => {
       id: 1,
       name: 'Main Office',
       address: '1st floor, Kosher Residency, 2, Shilpa Society, Manish Nagar, Somalwada, Nagpur, Maharashtra 440037',
-      phone: '+91 9953216767',
-      phone2:'+91 9096076177',
+      phone:'+91 9096076177',
       email: 'nagpurheightsofficial@gmail.com',
       hours: 'Mon-Sat: 10:00 AM - 7:00 PM'
     },
@@ -111,19 +110,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                {/* Emergency Contact */}
-                <div className="bg-blue-50 border border-blue-100 rounded-xl p-6">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Urgent Assistance</h3>
-                  <p className="text-gray-600 mb-4">
-                    For after-hours emergencies or immediate property needs
-                  </p>
-                  <div className="flex items-center">
-                    <FaPhone className="text-red-500 mr-3 text-xl" />
-                    <a href="tel:+919096076177" className="text-lg font-bold text-red-600 hover:text-red-700">
-                     +91 9953216767
-                    </a>
-                  </div>
-                </div>
+    
 
                 {/* Social Media */}
                 <div className="bg-gray-50 rounded-xl p-6 shadow-sm">
