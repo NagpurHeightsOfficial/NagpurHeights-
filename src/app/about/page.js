@@ -63,13 +63,7 @@ const About = () => {
       role: "Founder & CEO",
       bio: "2+ years in Nagpur real estate, transformed 5+ properties",
       image: "/images/teamimages/Sarang Thakre.jpeg"
-    },
-    {
-      name: "Rameshwar Thakur",
-      role: "CO-Founder and CMO",
-      bio: "Strategic sales and marketing professional with 15 years of experience driving brand growth, customer acquisition, and digital marketing in real estate market.",
-      image: "/images/teamimages/Rameshwar Thakur.jpeg"
-    },    
+    },  
     {
       name: "Mayur FulBandhe",
       role: "Head of Operations",
